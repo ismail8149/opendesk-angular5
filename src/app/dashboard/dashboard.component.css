@@ -1,0 +1,26 @@
+.symbol{
+  display: inline-block;
+  width: 35px;
+  border: 1px solid #0aa971;
+  padding: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  color: #0aa971;
+  font-size: 22px;
+  border-radius: 4px;
+}
+.order-count{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.configure{
+  margin-top: 17px;
+  padding: 5px 25px;
+  font-weight: 600;
+}
+

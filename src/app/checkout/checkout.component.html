@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row package-container padding-15" *ngFor="let item of itemDetails; let i = index">
+    <div class="clearfix">
+      <div class="col-sm-2 no-pad">
+        <img [src]="item.imageUrl" class="img-responsive  package-img">
+      </div>
+      <div class="col-sm-8">
+        <ul class="list-unstyled">
+          <li class="text-4">{{item.name}}</li>
+          <li class="text-1"> service1 : {{item.service1}}</li>
+          <li class="text-1"> service2 : {{item.service2}}</li>
+          <li class="text-1"> service3 : {{item.service3}}</li>
+        </ul>
+      </div>
+      <div class="col-sm-2">
+        <div class="padding-top-15">
+          <div class="order-count">{{item.quantity}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn btn-confirm pull-right" routerLink="/" (click)="onCheckoutItem()">Checkout Items</button>
+</div>

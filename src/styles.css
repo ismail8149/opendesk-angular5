@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+html,body{height: 100%;}
+body{background-color: #e7e7e7;}
+.padding-top0{padding-top: 0px !important;}
+.no-pad {padding: 0px !important;}
+.padding-15 {padding: 15px;}
+.padding-20 {padding: 20px;}
+.padding-top-15{padding-top: 15px;}
+.text-green {
+  color: #0aa971;
+}
+
+.text-1 {
+  font-size: 14px;
+}
+
+.text-2 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.text-3 {
+  font-size: 9px;
+}
+
+.text-4 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.btn-confirm{margin: 10px;color: #ffffff !important;background-color: #0aa971;}
+
+.package-container {
+  margin: 0px;
+  border: 1px solid #ffffff;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+.package-container .text-1{
+  font-size: 16px;
+}
+
+
+.package-img {
+  height: 120px;
+  width: 200px;
+}
